@@ -22,11 +22,13 @@
             </div>
             <div id="menu">
                 <nav>
-                    <a href> Add ASP home</a>
-                    <a href>Add view all movies</a> 
-                    <a href>Add asp logon status</a>
-                    <a href> add about us </a>
-                    <a href> add contact us</a>
+                 
+                     <asp:HyperLink ID="hl_home" runat="server" ImageUrl="~/Default.aspx">Home</asp:HyperLink></a>
+                     <asp:HyperLink ID="hl_viewAll" runat="server" ImageUrl="~/ViewAllMovies.aspx">View All Movies</asp:HyperLink></a> 
+                    <asp:HyperLink ID="hl_aboutUs" runat="server">About Us</asp:HyperLink>
+                    <asp:HyperLink ID="hl_contactUs" runat="server">Contact Us</asp:HyperLink>
+                   
+              
                 </nav>
 
                  </div>

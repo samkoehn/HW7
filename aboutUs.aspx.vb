@@ -1,5 +1,5 @@
 ﻿
-Partial Class admin_detailsview
+Partial Class aboutUs
     Inherits System.Web.UI.Page
 
 End Class
