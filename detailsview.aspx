@@ -1,16 +1,11 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="detailsview.aspx.vb" Inherits="detailsview" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/movies.master" AutoEventWireup="false" CodeFile="DetailsView.aspx.vb" Inherits="DetailsView" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-        <asp:SqlDataSource ID="Sql_Movies" runat="server" ConnectionString="<%$ ConnectionStrings:db_Movies %>" 
+
+  <asp:SqlDataSource ID="Sql_Movies" runat="server" ConnectionString="<%$ ConnectionStrings:db_Movies %>" 
             SelectCommand="SELECT * FROM [samkoehn_hw7_movies]" >
             <SelectParameters>
                 <asp:QueryStringParameter Name="Movie_ID" QueryStringField="Movie_ID" Type="Int32" />
@@ -28,9 +23,7 @@
                 <asp:BoundField DataField="Movie_Day" HeaderText="Movie_Day" SortExpression="Movie_Day" />
                 <asp:BoundField DataField="Movie_Viewers" HeaderText="Movie_Viewers" SortExpression="Movie_Viewers" />
             </Fields>
-        </asp:DetailsView>
-    
-    </div>
-    </form>
-</body>
-</html>
+  </asp:DetailsView>
+            
+            
+            </asp:Content>      

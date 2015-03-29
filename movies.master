@@ -18,16 +18,21 @@
                 <h3> Dates Released, and some numbers of viewers included!</h3>
             </div>
             <div id="right header">
-                <asp:Image ID="img_disney" runat="server" Height="100px" ImageUrl="~/css/walt-disney-logo[1].png" />
+                <asp:Image ID="img_disney" runat="server" Height="160px" ImageUrl="~/css/walt-disney-logo[1].png" style="margin-top: 9px" Width="293px" />
             </div>
-            <div id="nav menu">
+            <div id="menu">
                 <nav>
-                    <a href> Add ASP hyperlink to home</a>
-                    <a href>Add ASP hyperlink to view all movies</a> 
-                    <a href>Add asp hyperlink to admin or logon status</a>
-                    <a href> add asp hyperlink to about us </a>
-                    <a href> add asp hyperlink to contact us</a>
+                    <a href> Add ASP home</a>
+                    <a href>Add view all movies</a> 
+                    <a href>Add asp logon status</a>
+                    <a href> add about us </a>
+                    <a href> add contact us</a>
                 </nav>
+
+                 </div>
+            <div id="date">
+                <asp:Label ID="lbl_date" runat="server" Text="currentdate/time?"></asp:Label>
+            
             </div>
             <div id="main">
                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">

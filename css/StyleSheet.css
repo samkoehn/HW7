@@ -2,17 +2,45 @@
     background-color:black;
     color:white;
     position:relative;
-
+    width:1000px;
+    top: 1px;
+    left: -1px;
 }
 
-#nav{
+#header{
+    font-family:Arial, helvetica, sans-serif;
+    font-variant:small-caps;
     text-align:center;
-    width:200px;
-    list-style:circle;
-    background-color:aqua;
-    border:dashed;
+    width:700px;
+    float:left;
+    height:84px;
+}
+#rightheader {
+    background-color: green;
+    padding: ;
+    margin: 0 auto;
+    float: right;
+    height: 250px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 150px;
+}
+#menu{
+   width:780;
+    float:left;
+    padding:20px;
+    clear:both;
+    height:20px;
 }
 
+#date{
+    background-color:black;
+    width:230px;
+    float:right;
+    padding:20px;
+    height:20px;
+}
 h1{
     font-variant:normal;
     color:aqua;
@@ -25,37 +53,24 @@ h2{
 
 
 }
-#header{
-    font-family:Arial, helvetica, sans-serif;
-    font-variant:small-caps;
-    text-align:center;
 
-}
-
-#rightheader{
-    background-color:green;
-    padding:10px;
-    margin: 0 auto;
-    float:left;
-    height:150px;
-    border-top:1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    position:absolute;
-    top:0px;
-    right:0px;
-    text-align:right;
-
+#main{
+    padding:20px;
+    clear:both;
+    width:980px;
+    align-content:center;
 
 }
 
 body {
-
+    width:1000px;
 }
 
 #footer{
-    background-color:silver;
-    color:black;
+    background-color:black;
+    color:silver;
     text-align:center;
+    width:960px;
+    padding:20px;
 
 }

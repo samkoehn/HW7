@@ -1,5 +1,5 @@
 ﻿
-Partial Class detailsview
+Partial Class DetailsView
     Inherits System.Web.UI.Page
 
 End Class
