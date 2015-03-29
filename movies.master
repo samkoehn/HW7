@@ -1,0 +1,45 @@
+﻿<%@ Master Language="VB" CodeFile="movies.master.vb" Inherits="movies" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+            <div id="header">
+                <h1> Disney Original Movies</h1>
+                <h2> Your favorite Disney movies! </h2>
+                <h3> Dates Released, and some numbers of viewers included!</h3>
+            </div>
+            <div id="right header">
+                <asp:Image ID="img_disney" runat="server" Height="100px" ImageUrl="~/css/walt-disney-logo[1].png" />
+            </div>
+            <div id="nav menu">
+                <nav>
+                    <a href> Add ASP hyperlink to home</a>
+                    <a href>Add ASP hyperlink to view all movies</a> 
+                    <a href>Add asp hyperlink to admin or logon status</a>
+                    <a href> add asp hyperlink to about us </a>
+                    <a href> add asp hyperlink to contact us</a>
+                </nav>
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            </div>
+            <div id="footer">
+                &copy; 2015 MSCI:3300 - Software Design and Development
+
+            </div>
+
+    </form>
+</body>
+</html>
