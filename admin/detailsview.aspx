@@ -26,6 +26,7 @@
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />
+        <asp:Label ID="lbl_deleted" runat="server"></asp:Label>
         <br />
         <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="Movie_ID" DataSourceID="Sql_Movies" Height="64px" Width="241px">
             <Fields>

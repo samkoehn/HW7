@@ -23,11 +23,11 @@
             <div id="menu">
                 <nav>
                  
-                     <asp:HyperLink ID="hl_home" runat="server" ImageUrl="~/Default.aspx">Home</asp:HyperLink></a>
-                     <asp:HyperLink ID="hl_viewAll" runat="server" ImageUrl="~/ViewAllMovies.aspx">View All Movies</asp:HyperLink></a> 
-                    <asp:HyperLink ID="hl_aboutUs" runat="server">About Us</asp:HyperLink>
-                    <asp:HyperLink ID="hl_contactUs" runat="server">Contact Us</asp:HyperLink>
-                   
+                     <asp:HyperLink ID="hl_home" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></a>
+                     <asp:HyperLink ID="hl_viewAll" runat="server" NavigateUrl="~/ViewAllMovies.aspx">View All Movies</asp:HyperLink></a> 
+                     <asp:HyperLink ID="hl_aboutUs" runat="server" NavigateUrl="~/aboutUs.aspx">About Us</asp:HyperLink>
+                    <asp:HyperLink ID="hl_contactUs" runat="server" NavigateUrl="~/contactUs.aspx">Contact Us</asp:HyperLink>
+                    <asp:LoginStatus ID="login_Status" runat="server" />
               
                 </nav>
 

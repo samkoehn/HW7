@@ -1,5 +1,5 @@
 ﻿#container{
-    background-color:black;
+    background-color:#3D3DBD;
     color:white;
     position:relative;
     width:1000px;
@@ -43,15 +43,13 @@
 }
 h1{
     font-variant:normal;
-    color:aqua;
+    color:white;
     text-align:center;
 }
 
 h2{
     font-variant:normal;
-    color:pink;
-
-
+    color:white;
 }
 
 #main{
@@ -62,13 +60,11 @@ h2{
 
 }
 
-body {
-    width:1000px;
-}
+
 
 #footer{
     background-color:black;
-    color:silver;
+    color:#000098;
     text-align:center;
     width:960px;
     padding:20px;
