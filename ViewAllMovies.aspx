@@ -28,7 +28,9 @@
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />
-        <br />
+        Having trouble finding what you&#39;re looking for? Try
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/search.aspx">searching for a movie</asp:HyperLink>
+        .<br />
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="Movie_ID" DataSourceID="sql_Movies">
             <Columns>
                 <asp:BoundField DataField="Movie_ID" HeaderText="Movie_ID" SortExpression="Movie_ID" InsertVisible="False" ReadOnly="True" />

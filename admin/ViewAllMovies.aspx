@@ -28,6 +28,7 @@
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/admin/newMovies.aspx">Add A New Movie</asp:HyperLink>
         <br />
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="Movie_ID" DataSourceID="sql_Movies">
             <Columns>

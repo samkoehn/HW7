@@ -24,9 +24,12 @@
                 <nav>
                  
                      <asp:HyperLink ID="hl_home" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></a>
-                     <asp:HyperLink ID="hl_viewAll" runat="server" NavigateUrl="~/ViewAllMovies.aspx">View All Movies</asp:HyperLink></a> 
+                     &nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:HyperLink ID="hl_viewAll" runat="server" NavigateUrl="~/ViewAllMovies.aspx">View All Movies</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp; </a> 
                      <asp:HyperLink ID="hl_aboutUs" runat="server" NavigateUrl="~/aboutUs.aspx">About Us</asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:HyperLink ID="hl_contactUs" runat="server" NavigateUrl="~/contactUs.aspx">Contact Us</asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:LoginStatus ID="login_Status" runat="server" />
               
                 </nav>

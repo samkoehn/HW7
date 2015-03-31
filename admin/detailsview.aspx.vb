@@ -4,7 +4,7 @@ Partial Class admin_detailsview
 
     Protected Sub DetailsView1_ItemDeleted(sender As Object, e As DetailsViewDeletedEventArgs) Handles DetailsView1.ItemDeleted
 
-        Dim deletedmovie As String = e.Values("movie_Name").ToString()
+        Dim deletedmovie As String = e.Values("Movie_Name").ToString()
         lbl_deleted.Text = deletedmovie & "has been deleted from the database. "
         Response.AddHeader("REFRESH", "3;URL=./ViewAllMovies.aspx")
 
