@@ -1,5 +1,5 @@
 ﻿#container{
-    background-color:#3D3DBD;
+    background-color:black;
     color:white;
     position:relative;
     width:1000px;
@@ -17,7 +17,6 @@
 }
 #rightheader {
     background-color: green;
-    padding: ;
     margin: 0 auto;
     float: right;
     height: 250px;
@@ -43,13 +42,17 @@
 }
 h1{
     font-variant:normal;
-    color:white;
+    color:blue;
     text-align:center;
 }
 
 h2{
     font-variant:normal;
-    color:white;
+    color:blue;
+}
+
+h3{
+    color:blue;
 }
 
 #main{

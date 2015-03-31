@@ -4,13 +4,15 @@ Partial Class search
 
 
 
-    Protected Sub tb_searchResults_TextChanged(sender As Object, e As EventArgs) Handles tb_searchResults.TextChanged
+    Protected Sub tbTool_TextChanged(sender As Object, e As EventArgs) Handles tbTool.TextChanged()
 
         Dim searchWord As String
-        searchWord = "Select * From Tools where (toolName Like '%" + tb_searchResults.Text.ToString() + "%')"
+        searchWord = "Select * From Tools where (toolName Like '%" + tbTool.Text.ToString() + "%')"
         ToolDataSource.SelectCommand = searchWord
 
 
 
     End Sub
+
+
 End Class

@@ -24,6 +24,7 @@
                 <asp:Parameter Name="Movie_Day" Type="Decimal" />
                 <asp:Parameter Name="Movie_Viewers" Type="Decimal" />
                 <asp:Parameter Name="Movie_ID" Type="Int32" />
+               
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />

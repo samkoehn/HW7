@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_Movies %>" SelectCommand="SELECT * FROM [samkoehn_hw7_movies]"></asp:SqlDataSource>
-    <asp:TextBox ID="tb_searchResults" runat="server"></asp:TextBox>
+    <asp:TextBox ID="tbTool" runat="server"></asp:TextBox>
     <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1"></asp:GridView>
 
 </asp:Content>

@@ -33,7 +33,7 @@
 
                  </div>
             <div id="date">
-                <asp:Label ID="lbl_date" runat="server" Text="currentdate/time?"></asp:Label>
+                <asp:Label ID="lbl_date" runat="server"></asp:Label>
             
             </div>
             <div id="main">
